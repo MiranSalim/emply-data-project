@@ -1,0 +1,13 @@
+Handmatig één run:
+python -m scheduler_app.ingest
+
+Periodiek (achtergrond-scheduler):
+python -m scheduler_app.scheduler
+
+Start de Mock API
+uvicorn emply_mock_api.app:app --reload
+
+BigQuery transfer:
+python upload_to_bigquery.py
+
+'fake' data

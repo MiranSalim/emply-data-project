@@ -1,0 +1,3 @@
+Handmatig één run:
+python -m scheduler_app.ingest
+

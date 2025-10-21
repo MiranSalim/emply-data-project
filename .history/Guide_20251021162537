@@ -1,0 +1,9 @@
+Handmatig één run:
+python -m scheduler_app.ingest
+
+Periodiek (achtergrond-scheduler):
+python -m scheduler_app.scheduler
+
+Herstart de Mock API (zeker weten dat ze draait)
+
+uvicorn emply_mock_api.app:app --reload

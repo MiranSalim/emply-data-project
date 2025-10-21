@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 from google.cloud import bigquery
 
 # --- Config ---
-PG_CONN = "postgresql+psycopg2://postgres:postgrespass@emply-scheduler-db.ctgcuyccsify.eu-north-1.rds.amazonaws.com:5432/scheduler_db"
+PG_CONN = "postgresql+psycopg2://postgres:<JOUW_WACHTWOORD>@emply-scheduler-db.ctgcuyccsify.eu-north-1.rds.amazonaws.com:5432/scheduler_db"
 BQ_PROJECT = "emply-data-project"
 BQ_DATASET = "emply_dw"
 KEY_PATH = "/Users/miransalim/Emply_Data_Project/dbt_bigquery_key.json"
