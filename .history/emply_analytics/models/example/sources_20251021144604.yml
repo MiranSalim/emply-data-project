@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: emply_dw
+    description: "Ruwe tabellen afkomstig uit scheduler_db"
+    tables:
+      - name: postings_raw
+        description: "Ruwe postings opgehaald uit de mock Emply API"
+      - name: applications_raw
+        description: "Ruwe sollicitaties opgehaald uit de mock Emply API"
